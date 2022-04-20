@@ -39,8 +39,8 @@ public class PigResourceServerConfigurerAdapter extends ResourceServerConfigurer
 	@Autowired
 	protected ResourceAuthExceptionEntryPoint resourceAuthExceptionEntryPoint;
 
-	@Autowired
-	protected RemoteTokenServices remoteTokenServices;
+//	@Autowired
+//	protected RemoteTokenServices remoteTokenServices;
 
 	@Autowired
 	private PermitAllUrlProperties permitAllUrl;
